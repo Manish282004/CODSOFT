@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 from tkinter import *
 from tkinter import messagebox
 import sqlite3 as sql
@@ -141,16 +135,4 @@ if __name__ == "__main__":
     guiWindow.mainloop()    
     the_connection.commit()  
     the_cursor.close()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+    
